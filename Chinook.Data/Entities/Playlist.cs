@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chinook.Data
 {
-    public partial class Artist
+    partial class Playlist
     {
-        
     }
 }

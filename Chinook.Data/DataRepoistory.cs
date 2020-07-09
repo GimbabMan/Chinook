@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Chinook.Data
 {
-    class DataRepoistory
+    public class DataRepoistory
     {
+        public static AlbumData Album { get; } = new AlbumData();
+        public static ArtistData Artist { get; } = new ArtistData();
+        public static GenreData Genre { get; } = new GenreData();
+        public static PlaylistData Playlist { get; } = new PlaylistData();
+        public static PlaylistTrackData playlistTrack { get; } = new PlaylistTrackData();
+        public static TrackData Track { get; } = new TrackData();
     }
 }
